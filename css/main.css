@@ -9,7 +9,7 @@ body h1 {
 
 body h2 {
   font-size: 40px;
-  color: #a4564a;
+  color: #a82b2f;
 }
 
 body h3 {
@@ -19,6 +19,7 @@ body h3 {
 
 body p {
   font-size: 18px;
+  text-decoration: none;
 }
 
 /***** GRID *****/
@@ -70,7 +71,7 @@ header #greeting {
 }
 
 header span {
-  color: #a4564a;
+  color: #a82b2f;
   font-size: 60px;
 }
 
@@ -108,6 +109,50 @@ header span {
 }
 
 /***** ABOUT *****/
+#about {
+  background: #c9ad88;
+  height: 350px;
+  padding-top: 50px;
+}
 
+#about img#about-pic {
+  margin: 20px 20px 20px 20px;
+}
 /***** CONTACT *****/
+#contact .full-width {
+  background: #8b868a;
+  height: 100px;
+}
+
+#contact .third-width {
+  background: #8b868a;
+  height: 300px;
+}
+
+#contact h2 {
+  text-align: center;
+  color: #cfc9d3;
+}
+
+#contact h3 {
+  text-align: center;
+  color: #cfc9d3;
+}
+
+#contact p {
+  text-align: center;
+  color: #cfc9d3;
+}
+
+
 /***** FOOTER *****/
+#footer {
+  clear: both;
+  text-align: center;
+  padding-top: 20px;
+  background: #8b868a;
+}
+
+#footer p {
+  color: #cfc9d3;
+}
