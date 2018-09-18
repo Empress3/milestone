@@ -114,7 +114,7 @@ header span {
 #about {
   background: #d5a46c;
   height: 500px;
-  padding-top: 20px;
+  padding: 20px 40px 0px 0px;
 }
 
 #about img#about-pic {
