@@ -17,6 +17,11 @@ body h3 {
   color: #2B2524;
 }
 
+body h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+}
+
 body p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -116,6 +121,12 @@ header span {
   text-align: center;
 }
 
+#about a {
+  text-decoration: none;
+  color: #A82A17;
+  font-weight: bold;
+}
+
 /***** CONTACT *****/
 #contact .full-width {
   background: #755F47;
@@ -171,4 +182,46 @@ header span {
 
 #footer p {
   color: #d5bfb1;
+}
+
+/***** WORK *****/
+#work {
+  background: #d5a46c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#work p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#work .third-width {
+  height: 360px;
+  width: 360px;
+  float: left;
+  padding: 80px 20px 80px 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#work a {
+  text-decoration: none;
+  color: #A82A17;
+  font-weight: bold;
+}
+
+/***** INVITATION *****/
+
+#invitation {
+  text-align: center;
+  text-decoration: none;
+  background: #d5a46c;
+  padding: 20px 0px 20px 0px;
+}
+
+#invitation a {
+  text-decoration: none;
+  font-weight: bold;
 }
