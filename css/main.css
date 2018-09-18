@@ -85,7 +85,7 @@ header span {
 /***** PORTFOLIO *****/
 #portfolio .full-width {
   padding: 20px 74px 20px 74px;
-  background: #d5bfb1;
+  background: #d5a46c;
   height: 1200px;
 }
 
@@ -107,7 +107,7 @@ header span {
 
 /***** ABOUT *****/
 #about {
-  background: #d5a46c;
+  background: #d5bfb1;
   height: 500px;
   padding: 20px 40px 0px 0px;
 }
