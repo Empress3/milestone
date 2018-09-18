@@ -1,7 +1,7 @@
 /***** BASE STYLES *****/
 body h1 {
-  font-size: 40px;
   font-family: 'Roboto Slab', serif;
+  font-size: 40px;
   color: #2b2524;
 }
 
@@ -20,7 +20,6 @@ body h3 {
 body p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  text-decoration: none;
   color: #2B2524;
 }
 
@@ -46,7 +45,6 @@ header {
   height: 630px;
   background: url('../img/hero-image.jpg');
   background-size: cover;
-  color: #2B2524;
 }
 
 nav {
@@ -57,12 +55,12 @@ nav {
 
 nav ul li{
     display: inline-block;
-    font-family: 'Open Sans', sans-serif;
 }
 
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     font-weight: bold;
     color: #F4DBC1;
@@ -98,15 +96,7 @@ header span {
   color: #F4DBC1;
 }
 
-#portfolio img#rogue-pickings-image {
-  border: solid 2px #A82A17;
-}
-
-#portfolio img#jubilee-image {
-  border: solid 2px #A82A17;
-}
-
-#portfolio img#holstee-image {
+#portfolio img#rogue-pickings-image, #portfolio img#jubilee-image,  img#holstee-image{
   border: solid 2px #A82A17;
 }
 
@@ -143,21 +133,19 @@ header span {
   color: #d5bfb1;
 }
 
-#contact h3 {
+#contact h3{
   text-align: center;
   color: #d5bfb1;
-}
 
+}
 #contact p {
   text-align: center;
   color: #d5bfb1;
 }
 
 #contact a {
-  text-align: center;
   text-decoration: none;
   color: #d5bfb1;
-  font-weight: bold;
 }
 
 #contact ul {
